@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -18,7 +20,7 @@ p{
     margin-bottom: 150px;
 }
 .colorfull{
-    color: darkslateblue;
+    color: rgb(198, 56, 241);
 }
 .header{
     width: 50%;
@@ -58,6 +60,7 @@ p{
     margin-left: 8px;
 }
 .bodyTwo{
+    padding: 50px;
     width: 25%;
     margin-left: 2%;
     margin-right: 2%;
@@ -65,11 +68,19 @@ p{
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
+.Miss{
+    background-color: rgba(243, 210, 210, 0.472);
+}
+.Viss{
+    background-color: rgb(243, 238, 193);
+}
+.Goll{
+    background-color: rgba(92, 255, 233, 0.294);
+}
 .sectionThree{
     margin-top: 8%;
     display: flex;
-    padding-left: 3%;
-    background-image: url(./img/shapes/dream-bg.png);
+    padding-left: 3%;background-image: url(./img/shapes/dream-bg.png);
     background-repeat: no-repeat;
 }
 .bodyThree img{
@@ -88,4 +99,38 @@ p{
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 50px;
+}
+.sectionFor{
+    margin-top: 80px;
+    display: flex;
+    padding-left: 3%;
+}
+.bodyFor{
+    width: 41%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 15px;
+    text-align: justify;
+}
+.bodyFor img{
+    width: 65%;
+}
+.Project{
+    margin-top: 50px;
+}
+.Project p{
+    margin-left: 4px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(154, 240, 240);
+    text-align: center;
+    padding: 20px;
+}
+footer h1{
+    font-family: 'The Nautigal', cursive;
+}
+footer span{
+    font-family: 'The Nautigal', cursive;
 }
