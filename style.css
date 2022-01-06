@@ -109,8 +109,9 @@ p{
     width: 41%;
     margin-left: 2%;
     margin-right: 2%;
-    padding-left: 15px;
+    padding-left: 45px;
     text-align: justify;
+    margin-bottom: 100px;
 }
 .bodyFor img{
     width: 65%;
