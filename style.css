@@ -37,6 +37,8 @@ p{
 }
 .button-link{
     color: white;
+    font-weight: 800;
+    text-align: center;
     text-decoration: none;
     background-image: linear-gradient(tomato, tomato, orange);
     font-weight: 700;
@@ -104,6 +106,7 @@ p{
     margin-top: 80px;
     display: flex;
     padding-left: 3%;
+    
 }
 .bodyFor{
     width: 41%;
@@ -112,6 +115,7 @@ p{
     padding-left: 45px;
     text-align: justify;
     margin-bottom: 100px;
+    
 }
 .bodyFor img{
     width: 65%;
